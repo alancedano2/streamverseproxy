@@ -1,8 +1,9 @@
 export default function Home() {
   return (
     <div>
-      <h1 style={{ textAlign: 'center' }}>Stream Seguro con Clappr</h1>
-      <div id="player" style={{ width: '100%', maxWidth: '800px', margin: '20px auto' }}></div>
+      <h1 style={{ textAlign: 'center', padding: '20px' }}>📺 Hidra Stream via HTTPS (Clappr)</h1>
+      <div id="player" style={{ width: '100%', maxWidth: '800px', margin: '0 auto' }}></div>
+
       <script src="https://cdn.jsdelivr.net/npm/clappr@latest/dist/clappr.min.js"></script>
       <script dangerouslySetInnerHTML={{
         __html: `
