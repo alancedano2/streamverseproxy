@@ -25,9 +25,9 @@ export default function Home() {
   }, []);
 
   return (
-    <div>
-      <h1 style={{ textAlign: 'center', padding: '20px' }}>📺 Hidra Stream via HTTPS (Clappr)</h1>
-      <div id="player" style={{ width: '100%', maxWidth: '800px', margin: '0 auto' }}></div>
+    <div style={{ background: "#000", height: "100vh", paddingTop: "50px" }}>
+      <h1 style={{ color: "#fff", textAlign: "center" }}>🔴 Transmisión en vivo</h1>
+      <div id="player" style={{ maxWidth: "800px", margin: "0 auto" }}></div>
     </div>
   );
 }
